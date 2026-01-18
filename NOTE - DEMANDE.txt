@@ -1,0 +1,67 @@
+- create the data set 
+- Predict how big the explosion gonna be
+- RNN or lenght episode, accoustic data or LP
+-size or magnitude of volcano
+- features : time duration befor explosion We want the one before explosion And explore the interestings and the not interesstingqs one 
+number of eaquartq
+level of energy 
+- look size of the eruption with the feature (Amplitude volcano as feature)
+target : Eruption magnitude
+rsam -> drops before volcano activation Analyse the activity SEE plot
+- size distrbutin of energy 
+5 th D .33
+- feature lahar no lahar 
+- lahar explosion sample set (with the same number on non lahar data) -|-  Not explosion set explosion Separate the two and make training
+
+
+- tsfresh (look into)
+
+
+- regarder les gaps avant les eruptions et interpolate les petits trous mais si ils manquent +10 minutes
+- regarder la saison de pluies
+- threshold rsam 20 - 1e5
+- filter the energy of the eruptions and take the larger ones
+- mseed contient des exemples d'explosion de trimmor Les regarder et analyser
+- regarder dsar, rsar 
+- tsfresg
+- look with spectogram
+- read the paprs
+- obspy regarder 
+- threshold regarder aec K means and cluster 
+QUESTIONS
+---------
+
+- Comment gérer les différents outliers ( Les retirer , faire une mean value , Prendre celle juste avant ...)
+- t1,t2 in VRBA data corresponds bien à au debut et a la fin de la secousse ?
+- Features Saison, Journée, Heure
+- Est ce que j'ai les bons Lahar, Est ce qu'ils sont bien classifié (energy et le reste)? Est ce qon veut savoir aussi les explosions
+- Combler les gaps de plus de 2 min ? si 3 min avec 1/3 du data manquant couverts.
+
+
+REGARDER LE NOMBRE DE POINTS DISPONIBLES AVANT UN VOLCA?
+---------
+evenement | pas evenement
+demande comment ont été normalisé
+quantification de la prediction 
+garder le meme nombre ou il ne se passe rien
+comparer le graphique quand ya rien
+retire la durée mettre
+tester des fenetres différentes
+hue graph
+
+----------------------------------------------------
+ -> J'ai des eruptions qui se superposent est ce un problème
+ -> les lahars de différences a garder ou supprimer
+ -------------------------------------------
+
+
+-> Etudier les tetes de files des sequences ( contient lahar, normal et rien)   
+-> ts fresh sur la pluie ?
+-> il n'y a pas de segements separable par ne serait ce qu'une deux voire trois ligne de data manquante
+-> Changer la size des windows des non eruptions data 5000 - 7 min
+
+
+
+----
+tsne look settings (iteration scikit-learn perplexity)
+pt necessaire dutiliser les valeurs apres Evaluer la qualité de la prédiction avant leruption
