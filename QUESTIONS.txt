@@ -1,0 +1,4 @@
+- LET go Eruptions poorly covered ?
+- Theres overlapping with eruptions , how to deal with that?
+- Since there are overlapping windows in eruptions windows Do the same with no eruptions window ?
+
