@@ -1,4 +1,7 @@
 - LET go Eruptions poorly covered ?
 - Theres overlapping with eruptions , how to deal with that?
 - Since there are overlapping windows in eruptions windows Do the same with no eruptions window ?
-
+- Starting eruption chain seems interessting to look since they dont depend on any eruption.
+Would it be interessting to predict them (It contains two lahars) and thus would we need the 
+exact same number of non overlapping.
+- regarder le coverage des heads
