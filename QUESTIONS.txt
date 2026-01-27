@@ -5,3 +5,5 @@
 Would it be interessting to predict them (It contains two lahars) and thus would we need the 
 exact same number of non overlapping.
 - regarder le coverage des heads
+- Data augmentation necessaire 
+- Considérer les windows assez proche de l'éruption comme éruptions elle même?
