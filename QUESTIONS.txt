@@ -7,3 +7,10 @@ exact same number of non overlapping.
 - regarder le coverage des heads
 - Data augmentation necessaire 
 - Considérer les windows assez proche de l'éruption comme éruptions elle même?
+- Should I consider allowing overlapping between no erution and eruption windows ( While taking care of balanced Thus add more eruption window)
+- Lake correlation Should I make it by myself
+- J'ai de la donéee de deux stations differente qui pour etre merge doivent etre normalisé au préalable 
+
+
+- One class classifier (sklearn)
+- fenêtre 1 jour
