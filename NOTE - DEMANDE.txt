@@ -65,3 +65,6 @@ hue graph
 ----
 tsne look settings (iteration scikit-learn perplexity)
 pt necessaire dutiliser les valeurs apres Evaluer la qualité de la prédiction avant leruption
+
+
+Regarder NaN pour pour les plots avec getmetrics (filtre les Nan mais jaffiche sur le signal non filtré)
