@@ -14,3 +14,12 @@ exact same number of non overlapping.
 
 - One class classifier (sklearn)
 - fenêtre 1 jour
+
+
+
+- dsar
+- lp evetns > 3 or 5
+- pressuri Lp aug Dsar decreasing Rsam quiescence
+- report (Il pourrait y'avoir des petits hydrothermal seal qui ne sont pas detectes et meme tous les hydrothermaseal ne sont les mêmes donc c'est difficile de comparer)
+- graph magnitudes of head eruptions
+- 3 days is already short and could miss some of the biggers eruptions
