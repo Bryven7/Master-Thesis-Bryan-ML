@@ -1,3 +1,0 @@
--> Regarder la pente apres un peak ou minimum  (slope.ipynb)
--> Comme Features pour la pluie : Window de 5 jours sur la pluie, Accummlation de pluie sur 5 jours (Somme), Valeur median de la pluie, !Faire varier le nombre de jours!
--> Modifier tout le code pour commencer en numpy (matrices)
